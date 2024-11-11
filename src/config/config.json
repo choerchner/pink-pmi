@@ -1,0 +1,4 @@
+{
+  "FHIR_API_URL": "http://hapi.fhir.org/baseR4",
+  "FHIR_API_PAGE_LIMIT": 3
+}
