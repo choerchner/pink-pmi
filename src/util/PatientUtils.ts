@@ -1,5 +1,7 @@
 import { fhirR4 } from "@smile-cdr/fhirts";
 
+/* Helper classes to extract patient data from fhir response */
+
 export const getFamilyName = (patient: fhirR4.Patient): string => {
   const familyNameP: string = "Unknown family name";
   const parsedName = patient.name?.at(0)?.family;
